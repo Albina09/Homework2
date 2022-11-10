@@ -6,8 +6,8 @@ void develop(char *prt);
 void develop(char *prt){
 
     for(char i=1;i<5;i++){
-    printf("%d байт a = %d\n",i, *prt);
-    prt++;
+        printf("%d байт a = %d\n",i, *prt);
+        prt++;
     }
 
 }
